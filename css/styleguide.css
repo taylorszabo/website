@@ -1,0 +1,66 @@
+:root { 
+  --chartreuse: #80fe00;
+  --dove-gray: #707070;
+  --eerie-black: #1e1e1e;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 30px;
+  --font-size-xl: 50px;
+  --font-size-xxl: 54px;
+  --font-size-xxxl: 55px;
+  --font-size-xxxxl: 60px;
+  --font-size-xxxxxl: 120px;
+ 
+  --font-family-arial-bold: "Arial-Bold", Helvetica;
+  --font-family-augie-regular: "augie-Regular", Helvetica;
+  --font-family-centurygothic-regular: "CenturyGothic-Regular", Helvetica;
+  --font-family-trashhand: "TrashHand", Helvetica;
+  --font-family-trashhand-regular: "TrashHand-Regular", Helvetica;
+}
+.trashhand-regular-normal-white-55px {
+  color: var(--white);
+  text-decoration:none;
+  font-family: var(--font-family-trashhand-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.trashhand-normal-chartreuse-120px {
+  color: var(--chartreuse);
+  font-family: var(--font-family-trashhand);
+  font-size: var(--font-size-xxxxxl);
+}
+
+.trashhand-regular-normal-white-120px {
+  color: var(--white);
+  font-family: var(--font-family-trashhand-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.trashhand-regular-normal-chartreuse-120px {
+  color: var(--chartreuse);
+  font-family: var(--font-family-trashhand-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.centurygothic-regular-normal-eerie-black-60px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-centurygothic-regular);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-1px-eerie-black {
+  border: 1px solid var(--eerie-black);
+}

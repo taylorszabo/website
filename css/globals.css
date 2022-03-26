@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "augie-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/augie.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TrashHand-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/TrashHand.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CenturyGothic-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Century Gothic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/FontsFree-Net-arial-bold.ttf") format("truetype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/623f3903492220e7673fce39.623f3914dd12e5a0113df216.DJParm3.hcp.png");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+  color: white;
+}
+
+.screen a:hover {
+	color: var(--chartreuse);
+	cursor: pointer;
+}
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
